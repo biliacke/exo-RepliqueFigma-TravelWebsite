@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'AR One Sans';
+}
+
+h1 {
+    font-size: 83px;
+    color:#14183E;
+}
+
+h2 {
+    font-size: 50px;
+    color:#14183E;
+}
+
+h3 {
+    font-size: 20px;
+    color: #DF6951;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 115px;
+    height: 34px;
+}
+
+#siteHeader {
+    width: 1200px;
+    height: 135px;
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 140px 48px 140px;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navBar a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+#signUp {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:25px;
+}
+
+.dropDown image {
+    width: 10px;
+    height: 10px;
+}
+
+#buttonCTA {
+    background-color:#F1A501;
+    color:white;
+    padding: 23px 28px 23px 28px;
+}
